@@ -1,4 +1,4 @@
-# Consumig wether API  
+# Consumig weather API  
 
 ## About 
 On this example we are consuming the wether API from open wether API ,the specific API is Current Weather Data \
