@@ -1,5 +1,5 @@
 const argv = require("./config/yargs").argv;
-const wether = require("./wether/wether");
+const weather = require("./weather/weather");
 const city =encodeURI(argv.city);
 
-wether.getWether(city).then(console.log).catch(console.log);
+weather.getWeather(city).then(console.log).catch(console.log);
